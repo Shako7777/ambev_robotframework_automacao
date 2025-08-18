@@ -50,7 +50,8 @@ ambev_robotframework_automacao/
 - **SeleniumLibrary** - Para automação web
 - **Python** - Para testes BDD com Behave
 - **ChromeDriver** - WebDriver para Chrome
-- **ServeRest** - Aplicação de testes (https://front.serverest.dev)
+- **ServeRest** - Aplicação de testes Web (https://front.serverest.dev)
+- **ServeRest** - Aplicação de testes Apis (https://serverest.dev/#/)
 
 ## 🎯 Tipos de Testes
 

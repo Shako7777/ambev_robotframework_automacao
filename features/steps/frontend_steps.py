@@ -128,19 +128,10 @@ def step_impl(context):
 def step_impl(context):
     time.sleep(3)
     alert_xpath = FrontEndPage.MENSAGEM_NAO_EXCLUIR_PROPRIO_USUARIO
-
-    # Espera o alerta aparecer
     elemento_alerta = WebDriverWait(context.driver, 10).until(
         EC.visibility_of_element_located((By.XPATH, alert_xpath))
     )
-
-    # Move o mouse para garantir que está visível na viewport
     ActionChains(context.driver).move_to_element(elemento_alerta).perform()
-
     print("Alerta de erro visível.")
-
-    # Pequena espera para renderização completa
     time.sleep(1)
-
-    # Captura da evidência com base no cenário atual
     FrontEndUtils.salvar_evidencia(context)

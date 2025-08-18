@@ -49,7 +49,6 @@ Clicar Aba Listar Usuarios
     Click Element    ${ABA_LISTAR_USUARIOS}
 
 Excluir Proprio Usuario
-    [Documentation]    Encontra o usuário Caio Santos na tabela e clica no botão de excluir
     Wait Until Element Is Visible    //table/tbody    30s
     Wait Until Element Is Visible    //table/tbody/tr    10s
     

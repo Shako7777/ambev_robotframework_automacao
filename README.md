@@ -153,9 +153,9 @@ cd features
 behave
 ```
 
-## 📊 Relatórios
+## 📊 Relatórios & Screenshot (Frontend)
 
-Após a execução dos testes, os relatórios são gerados automaticamente:
+Após a execução dos testes, os relatórios são gerados automaticamente e os Screenshot com os nomes dos cenários de frontend com timestamp:
 - **log.html** - Log detalhado de execução
 - **report.html** - Relatório executivo
 - **output.xml** - Resultados em formato XML

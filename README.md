@@ -4,7 +4,7 @@ Este projeto contém a automação de testes para a aplicação ServeRest (front
 
 ## 📋 Visão Geral
 
-O projeto utiliza **Robot Framework** para automação de testes de interface web e **Behave (Python)** para testes BDD. A estrutura está organizada para permitir testes completos tanto do front-end quanto do back-end.
+O projeto utiliza **Robot Framework** para automação de testes de interface web, api e **Behave (Python)** para testes BDD. A estrutura está organizada para permitir testes completos tanto do front-end quanto do back-end.
 
 ## 🏗️ Arquitetura do Projeto
 

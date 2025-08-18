@@ -71,6 +71,54 @@ ambev_robotframework_automacao/
 
 ## 🏃‍♂️ Como Executar os Testes
 
+### 📋 Passo a Passo para Execução
+
+#### 1. Verificar Instalação das Dependências
+Antes de executar os testes, certifique-se de que todas as bibliotecas necessárias estão instaladas:
+
+```bash
+# Verificar se a RequestsLibrary está instalada (para testes de API)
+pip list | findstr robotframework-requests
+
+# Verificar se a SeleniumLibrary está instalada (para testes de UI)
+pip list | findstr robotframework-seleniumlibrary
+
+# Verificar versão do Robot Framework
+robot --version
+
+# Verificar instalação do Behave
+behave --version
+
+# Verificar instalação do Selenium
+pip show selenium
+```
+
+#### 2. Instalar Dependências (se necessário)
+Se alguma biblioteca não estiver instalada, execute:
+
+```bash
+# Instalar RequestsLibrary (testes de API)
+pip install robotframework-requests
+
+# Instalar SeleniumLibrary (testes de UI)
+pip install robotframework-seleniumlibrary
+
+# Instalar Behave (testes BDD)
+pip install behave
+
+# Instalar dependências Selenium
+pip install selenium
+```
+
+#### 3. Verificar Estrutura do Projeto
+Certifique-se de que está no diretório correto antes de executar os testes:
+
+```bash
+# Verificar estrutura
+ls -la backend-tests/
+ls -la frontend-tests/
+```
+
 ### Executar Testes de Front-end
 ```bash
 # Navegar para o diretório frontend-tests
@@ -117,21 +165,6 @@ Após a execução dos testes, os relatórios são gerados automaticamente:
 - Python 3.8+
 - Chrome Browser
 - ChromeDriver (compatível com sua versão do Chrome)
-
-### Instalação
-```bash
-# Instalar dependências do Robot Framework
-pip install robotframework
-pip install robotframework-seleniumlibrary
-
-# Instalar dependências do Behave
-pip install behave
-pip install selenium
-
-# Verificar instalação
-robot --version
-behave --version
-```
 
 ## 📝 Estrutura dos Testes
 

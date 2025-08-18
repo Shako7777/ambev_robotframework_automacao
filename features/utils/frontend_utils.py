@@ -6,7 +6,7 @@ class FrontEndUtils:
     @staticmethod
     def salvar_evidencia(context):
 
-        print("✅ Método salvar_evidencia foi chamado")  # <- teste
+        print("Método salvar_evidencia foi chamado")  # <- teste
         
         # Nome do cenário vindo do contexto
         nome_cenario = context.scenario.name.replace(" ", "_").replace(":", "")
@@ -19,6 +19,6 @@ class FrontEndUtils:
 
         # Tirar screenshot
         context.driver.save_screenshot(caminho_screenshot)
-        print(f"✅ Screenshot salvo em: {caminho_screenshot}")
+        print(f"Screenshot salvo em: {caminho_screenshot}")
 
     

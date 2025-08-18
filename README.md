@@ -12,12 +12,12 @@ O projeto utiliza **Robot Framework** para automação de testes de interface we
 ambev_robotframework_automacao/
 ├── backend-tests/           # Testes de API/Back-end
 │   ├── resources/
-│   │   └── serverest_keywords.resource
+│   │   └── serverest_keywords.resource    # Keywords customizadas
 │   ├── tests/
-│   │   └── backend_tests.robot
+│   │   └── backend_tests.robot            # Casos de teste
 │   └── variables/
-│       └── endpoints.robot
-├── frontend-tests/          # Testes de Interface Web
+│       └── endpoints.robot                # Endpoints
+├── frontend-tests/         # Testes de Interface Web
 │   ├── drivers/            # WebDrivers (ChromeDriver)
 │   ├── pages/              # Page Objects
 │   │   └── frontend_page.robot
